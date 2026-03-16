@@ -31,3 +31,16 @@ hello world
    }
    
 </script>
+
+
+
+
+
+----random functions 
+
+
+
+var a=Math.random()
+console.log(a)
+
+
