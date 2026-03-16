@@ -4,3 +4,11 @@
 function nane(pra)
 retrun 
 op=name()
+
+
+if else:
+var rain=true
+if(rain){
+    console.log("It's raining outside. Don't forget to take an umbrella!")
+}
+else{console.log("sunny")}
