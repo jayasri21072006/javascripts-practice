@@ -11,3 +11,23 @@ hello world
    }
    
 </script>
+
+
+<input id="a" value="20">
+<input id="b" value="30">
+<button onclick="result()"> change</button>
+<p id="r">result</p>
+
+<script>
+   var bo1=document.getElementById("a")
+   var bo2=document.getElementById("b")
+   var res=document.getElementById("r")
+
+   function result(){
+    bo1.textContent=bo1.value
+      bo2.textContent=bo2.value
+      res.textContent=Number(bo1.value)+Number(bo2.value)
+      return res.textContent
+   }
+   
+</script>
