@@ -132,3 +132,15 @@ task based:
     }
 
 </script>
+
+next task:<button onclick="change()"></button>
+<div id="box">  </div>
+<script>
+    var box=document.getElementById("box")
+    function change(){
+        var elem=document.createElement("h1")
+        elem.textContent="Hello, World!"
+        box.append(elem)
+    }
+</script>
+
