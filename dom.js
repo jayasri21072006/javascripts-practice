@@ -40,6 +40,44 @@ hello world
 
 
 
+
+
+
+
+
+
+
+
+<center><h1>guess number</h1>
+<input id="one" type=""><br>
+
+<button onclick="check()">check</button>
+<p id="result"></p>
+<p id="score"> score:10</p>
+</center>
+<script>
+var guess_no=document.getElementById("one")
+var result=document.getElementById("result")
+var randomnumber=Math.floor(Math.floor(Math.random()*10)+1)
+var score=10
+function check(){
+    if (randomnumber==guess_no.value ){
+        console.log("right")
+        result.textContent="right"
+
+    }
+    else{
+        score=score-1
+        console.log("wrong")
+        document.getElementById("score").textContent=" score:" + score
+        result.textContent="wrong"
+    }
+}
+</script>
+   guess no game
+
+
+
 var a=Math.random()
 console.log(a)
 
