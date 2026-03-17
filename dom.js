@@ -114,3 +114,21 @@ console.log(Math.floor(a*17))
 
 
 css with dom 
+
+
+
+task based:
+
+
+<input id="enter" onkeyup="change()">
+<h2 id="result"></h2>
+<script>
+    var inp=document.getElementById("enter")
+    var esult=document.getElementById("result")
+    function change(){
+        result.textContent=inp.value
+
+        
+    }
+
+</script>
