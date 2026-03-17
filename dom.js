@@ -85,3 +85,32 @@ console.log(a)
 var a=Math.random()
 
 console.log(Math.floor(a*17))
+
+
+<style>div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: 2s;
+}
+.widthmax{
+    width: 100%;
+}
+
+</style>
+
+<div id="box" ></div>
+<center>
+<button id="click" onclick="change()"></button
+    </center>
+<script>
+    var box=document.getElementById("box")
+    function change(){
+        box.setAttribute("class","widthmax")
+
+    }
+</script>
+
+
+
+css with dom 
