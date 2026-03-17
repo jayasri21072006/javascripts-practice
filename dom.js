@@ -144,3 +144,22 @@ next task:<button onclick="change()"></button>
     }
 </script>
 
+
+
+task 3:
+<button id="butt" onclick="change()"></button>
+<style>
+    button{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+</style>
+
+<script>
+    var box=document.getElementById("butt")
+    function change(){
+        box.style.backgroundColor="blue"
+        
+    }
+</script>
