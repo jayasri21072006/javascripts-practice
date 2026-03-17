@@ -1,0 +1,3 @@
+var fruit=["apple","banana","orange"];
+console.log(fruit[2])
+
