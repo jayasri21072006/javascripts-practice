@@ -1,0 +1,14 @@
+<div class="one">hello</div>
+<script>
+    var a=document.querySelector(".one")
+    console.log(a)
+</script>
+
+
+
+<div class="one">hello</div>
+<div class="one">hi dear</div>
+<script>
+    var a=document.querySelectorAll(".one")
+    console.log(a)
+</script> to pint both div
