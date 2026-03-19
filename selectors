@@ -12,3 +12,17 @@
     var a=document.querySelectorAll(".one")
     console.log(a)
 </script> to pint both div
+
+
+<div>
+    <h1>hello</h1>
+</div>
+
+
+<script>
+    var a=document.querySelector("div")
+
+    var h1=document.createElement("h1")
+    h1.textContent="Hello world"
+    a.insertAdjacentElement("beforebegin",h1)
+</script>
