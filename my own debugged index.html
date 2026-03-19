@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR BOOK TRACKER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Bookskey</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>harry potter</h2>
+            <h5>by J.k rowling</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+        <div class="book-container">
+            <h2>harhy fyhfy</h2>
+            <h5>by jsuih</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button onclick="deletebook(event)">Delete</button> <!-- ✅ Bug 5 fixed -->
+        </div>
+    </div>
+
+    <div class="popup-overlay">
+        <div class="popupbox">
+            <h2>Add book</h2>
+            <form>
+                <input type="text" placeholder="BOOK TITLE" id="book-title">
+                <input type="text" placeholder="Book author" id="book-author">
+                <textarea placeholder="short description" id="book-description"></textarea>
+                <button id="add-book">add book</button> <!-- ✅ Bug 6 fixed -->
+                <button id="cancel_pop_up">cancel</button>
+            </form> <!-- ✅ Bug 7 fixed -->
+        </div>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>
+
+    <script src="scripts.js"></script> <!-- ✅ Bug 8 fixed -->
+</body>
+</html>
